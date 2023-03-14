@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'main';
+@import 'search';
+@import 'repository';
+
+pre {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+a {
+    color: red;
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: black;
+    }
+
+    &:visited {
+        color: red;
+    }
+}

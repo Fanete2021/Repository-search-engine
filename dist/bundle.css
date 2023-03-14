@@ -1,0 +1,75 @@
+/*!************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./scss/index.scss ***!
+  \************************************************************************************************************/
+.main {
+  margin: 0 20%;
+}
+
+.separator {
+  border: 3px solid rgb(242, 152, 152);
+  margin-top: 20px;
+}
+
+.search {
+  display: flex;
+}
+
+.search__data {
+  width: 150px;
+}
+
+.search__send {
+  margin-left: 5%;
+}
+
+.result {
+  margin-top: 20px;
+  color: red;
+  font-size: 24px;
+}
+
+.repository {
+  margin: 20px 0;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(215, 215, 215);
+}
+
+.repository__user {
+  font-weight: 700;
+}
+
+.repository__language {
+  margin-top: 5px;
+}
+
+.repository__description {
+  margin-top: 5px;
+}
+
+pre {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+}
+
+a {
+  color: red;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: red;
+}

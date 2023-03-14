@@ -1,0 +1,27 @@
+.repository {
+    margin: 20px 0;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(215, 215, 215);
+}
+
+.repository__header {
+}
+
+.repository__nameRepository {
+}
+
+.repository__user {
+    font-weight: 700;
+}
+
+.repository__language {
+    margin-top: 5px;
+}
+
+.repository__description {
+    margin-top: 5px;
+}
